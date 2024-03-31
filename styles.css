@@ -1,0 +1,54 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#subject-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#subject-table th,
+#subject-table td {
+    border: 3px solid #FF6633;
+    padding: 8px;
+    text-align: left;
+}
+
+#subject-table th {
+    background-color: #FF6600;
+    font-weight: bold;
+}
+#p1{text-align:center;}
+
+
+a{
+color:#dfffaa;
+text-decoration:none;
+}
+
+a:hover{
+color:#fffc40;
+text-decoration:underline;
+}
+
+td{
+font-family: SimSun;
+color:#CCFFCC;
+}
+
+body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
